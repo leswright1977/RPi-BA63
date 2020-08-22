@@ -10,7 +10,7 @@ The BA63 display is a Vacuum Fluorescent display with a RS232 serial interface. 
 
 https://www.dieboldnixdorf.com/-/media/diebold/ag-downloads/poslotterysystems/manuals/peripherals/baxx/ba63_display_operating_manual_english.pdf
 
-From the manual we can see it is easy to turn parity off by simmply jumpering JP3
+From the manual we can see it is easy to turn parity off by simply jumpering JP3
 
 ![Screenshot](media/jp3.png)
 
