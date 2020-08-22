@@ -23,8 +23,11 @@ To drive the serial directly from the Raspberry Pi, we simply need to find a pin
 The BA63 is controlled with the TEMIC TSC80C31-16CB pin 5 is the RX pin.
 https://html.alldatasheet.com/html-pdf/29664/TEMIC/TSC80C31-16CB/406/3/TSC80C31-16CB.html
 
-There is a convenient test point on the board that a small piece of wire wrap wire can be soldered to:
+There is a convenient pad on the board that a small piece of wire wrap wire can be soldered to:
 
 ![Screenshot](media/temicsolder.png)
+
+
+All the Python code is in src/ containing demos that: Display Text, Display the time, Scroll text and so on.
 
 
