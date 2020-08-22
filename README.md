@@ -10,16 +10,21 @@ Seemingly the Raspberry pi built in serial cannot be changed to odd parity that 
 https://www.dieboldnixdorf.com/-/media/diebold/ag-downloads/poslotterysystems/manuals/peripherals/baxx/ba63_display_operating_manual_english.pdf
 
 From the manual we can see it is easy to turn parity off by simmply jumpering JP3
+
 ![Screenshot](media/jp3.png)
 
-To power the display (12v) you can either use the PS/2 port, or solder wires directly to the pins as shown below. Be careful not to strike the vacuum sealing pip with your soldering iron
+
+To power the display (12v) you can either use the PS/2 port, or solder wires directly to the pins as shown below. Be careful not to strike the vacuum sealing pip with your soldering iron:
+
 ![Screenshot](media/pwr.png)
+
 
 To drive the serial directly from the Raspberry Pi, we simply need to find a pint on the circuit that will accept our 3v3 levels.
 The BA63 is controlled with the TEMIC TSC80C31-16CB pin 5 is the RX pin.
 https://html.alldatasheet.com/html-pdf/29664/TEMIC/TSC80C31-16CB/406/3/TSC80C31-16CB.html
 
 There is a convenient test point on the board that a small piece of wire wrap wire can be soldered to:
+
 ![Screenshot](media/temicsolder.png)
 
 
