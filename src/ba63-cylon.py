@@ -36,7 +36,7 @@ def cylon(delay):
 			time.sleep(delay)
 		pos = 20
 
-		#now do the same job backwards...
+		#now do the same job backwards....
 		for i in range(20):
 			position = "\033[1;"+str(pos)+"H"
 			ser.write(position+text)
