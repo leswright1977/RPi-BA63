@@ -31,7 +31,8 @@ ser.write(line1+sometext0)
 
 def scroll(scrolltext,delay):
 	if len(scrolltext)<19:
-		#Check if the text is shorter than the display, if it is, pad it with spaces
+		#Check if the text is shorter than the display,
+		#if it is, pad it with spaces
 		padding = " " * (20-len(scrolltext))
 		scrolltext = scrolltext+padding
 

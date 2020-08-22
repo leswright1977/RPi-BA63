@@ -37,7 +37,8 @@ def scroll(scrolltext,delay):
 	spinner = '|/-\|/-' 
 	spin = 0
 
-	#Check if the text is shorter than the display, if it is, pad it with spaces
+	#Check if the text is shorter than the display, 
+	#if it is, pad it with spaces
 	if len(scrolltext)<19:
 		padding = " " * (20-len(scrolltext))
 		scrolltext = scrolltext+padding

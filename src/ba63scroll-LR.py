@@ -23,7 +23,8 @@ line2 = "\033[2;1H" #Escape seqence to start on line 2 char 1
 
 
 def dualscroll(scrolltext1,scrolltext2,delay):
-	#Check if the text is shorter than the display, if it is, pad it with spaces
+	#Check if the text is shorter than the display, 
+	#if it is, pad it with spaces
 	if len(scrolltext1)<19:
 		padding = " " * (20-len(scrolltext1))
 		scrolltext1 = scrolltext1+padding

@@ -15,7 +15,7 @@ region = "\033R00"  #Set region to USA (Standard ASCII)
 ser.write(region)
 
 
-cls = "\033[2J" #send escape sequence to clear screen
+cls = "\033[2J" #send escape sequence to clear screen!
 ser.write(cls)
 
 line1 = "\033[1;1H" #Escape seqence to start on line 1 char 1

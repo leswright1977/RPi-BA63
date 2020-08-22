@@ -30,7 +30,7 @@ time.sleep(3)
 
 ser.write(cls)
 
-#clock and spinner
+#clock and spinner!
 spinner = '|/-\|/-'
 spin = 0
 
