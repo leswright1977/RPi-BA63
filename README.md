@@ -23,7 +23,7 @@ To power the display (12v) you can either use the PS/2 port, or solder wires dir
 To drive the serial directly from the Raspberry Pi, we simply need to find a point on the PCB that will accept our 3v3 levels.
 The BA63 is controlled with the TEMIC TSC80C31-16CB microcontroller. Pin 5 is the RX pin.
 
-https://pdf1.alldatasheet.com/datasheet-pdf/view/29664/TEMIC/TSC80C31-16CB.html
+https://www.alldatasheet.com/datasheet-pdf/pdf/29664/TEMIC/TSC80C31-16CB.html
 
 There is a convenient pad on the board that a small piece of wire wrap wire can be soldered to:
 
