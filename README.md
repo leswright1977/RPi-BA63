@@ -4,8 +4,9 @@ Python code and Hardware modifications to use the BA63 Vacuum Fluorescent displa
 
 The BA63 display is a Vacuum Fluorescent display with a RS232 serial interface. These are easy to control over serial, but if you want to control it with the Raspberry Pi, there a a couple of small hitches:
 
-The Raspberry Pi cannot drive 12v serial.
-Seemingly the Raspberry pi built in serial cannot be changed to odd parity that the display expects by default.
+1 The Raspberry Pi cannot drive 12v serial.
+
+2 Seemingly the Raspberry pi built in serial cannot be changed to odd parity that the display expects by default.
 
 https://www.dieboldnixdorf.com/-/media/diebold/ag-downloads/poslotterysystems/manuals/peripherals/baxx/ba63_display_operating_manual_english.pdf
 
@@ -27,7 +28,10 @@ There is a convenient pad on the board that a small piece of wire wrap wire can 
 
 ![Screenshot](media/temicsolder.png)
 
+Connect your Raspberry Pi tx pin to this, and you are good to go.
+
 
 All the Python code is in src/ containing demos that: Display Text, Display the time, Scroll text and so on.
+Code is well commented but refer to the BA63 manual for esape codes etc.
 
 
