@@ -32,6 +32,6 @@ Connect your Raspberry Pi tx pin to this, and you are good to go.
 
 
 All the Python code is in src/ containing demos that: Display Text, Display the time, Scroll text and so on.
-Code is well commented but refer to the BA63 manual for esape codes etc.
+Code is well commented but refer to the BA63 manual for escape codes etc.
 
 
