@@ -23,11 +23,11 @@ def cylon(delay):
 		pos = 1
 		for i in range(20):
 			#Set position of character
-			#see position cursor in manual ESC ‘[‘ ‘Py’ ; ‘Px’ ‘H’
+			#see position cursor in manual
 			position = "\033[1;"+str(pos)+"H"
 			ser.write(position+text)
 			#delete previous character
-			#see position cursor in manual ESC ‘[‘ ‘Py’ ; ‘Px’ ‘H’
+			#see position cursor in manual ESC
 			if pos > 1:
 				delchar = "\033[1;"+str(pos-1)+"H"
 				ser.write(delchar+" ")
